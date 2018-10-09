@@ -1,5 +1,5 @@
 # **外卖运营数据爬取**
-##1.获取一个坐标（一个店铺的位置）
+## 1.获取一个坐标（一个店铺的位置） （更新：应用高德开放平台接口）
   * 通过百度地图开放平台获取地址编码
   
   * URL = http://api.map.baidu.com/geocoder/v2/?address=&output=json&ak=&ret_coordtype=gcj02ll
@@ -19,7 +19,7 @@
          }
      }
   * 通过python-geohash算法计算坐标（latitude,longitude）的geohash值
-##2.获取这个店铺周围外卖商家信息
+## 2.获取这个店铺周围外卖商家信息
 * 通过饿了么、美团外卖移动端接口获取商家数据 
 
 * 饿了么：https://h5.ele.me/
