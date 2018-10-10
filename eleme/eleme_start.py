@@ -3,15 +3,14 @@
 '''
     @Time    : 2018-10-9 10:05
     @Author  : Joseph
-    @File    : start.py
+    @File    : eleme_start.py
     @Software: PyCharm
     @Description :
 '''
-import time
 
-import eleme_restaurant_info
-from eleme_menu import get_all_rst_menu
-from eleme_restaurant_info import get_restaurant_data_count
+from eleme import eleme_restaurant_info
+from eleme.eleme_menu import get_all_rst_menu
+from eleme.eleme_restaurant_info import get_restaurant_data_count
 
 if __name__ == '__main__':  # 程序运行入口
     # city = '石家庄市'

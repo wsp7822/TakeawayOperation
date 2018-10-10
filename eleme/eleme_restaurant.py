@@ -17,7 +17,7 @@ from urllib import request
 from openpyxl import Workbook, load_workbook
 
 import setting
-from geocoding import get_geocoding
+from utils.geocoding import get_geocoding
 
 
 

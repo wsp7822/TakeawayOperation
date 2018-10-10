@@ -14,7 +14,7 @@ import requests
 
 from openpyxl import Workbook, load_workbook
 
-import eleme_restaurant_info
+from eleme import eleme_restaurant_info
 import setting
 
 
